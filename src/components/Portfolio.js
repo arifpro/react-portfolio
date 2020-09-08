@@ -23,9 +23,10 @@ const Portfolio = ({ data }) => {
 
 
       var blogs = data.blogs.map(function(blog){
+        const image = "images/blogs/" + blog.image
         return (
           <div className="boxBlogs">
-            <img alt={blog.title} src={blog.image} />
+            <img alt={blog.title} src={image} />
             <hr/>
             <p>{blog.category}</p>
             <a className="link has-text-primary button" style={{border: 'none', padding: '0', height: '27px'}}></a>

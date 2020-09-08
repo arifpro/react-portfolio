@@ -646,6 +646,26 @@ call-to-action .button {
 	color: #D8D8D8;
 }
 
+
+
+
+/* blogs */
+.boxBlogs {
+   background-color: white;
+   border-radius: 6px;
+   box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #E6ECF8;
+   color: #141c3a;
+   padding: 1.25rem;
+   margin: 15px;
+   border-radius: 12px;
+   float: left;
+   width: 30%;
+   text-align: center;
+}
+.boxBlogs img {
+   border-radius: 6px;
+}
+
 /* ------------------------------------------------------------------
 /* g. Testimonials
 /* ------------------------------------------------------------------ */

@@ -19,6 +19,14 @@ const Resume = ({ data }) => {
         var className = 'bar-expand '+skills.name.toLowerCase();
         return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
       })
+      var tools = data.tools.map(function(tool){
+        var projectImage = 'images/tech/'+tool.image;
+          return <div key={tool.name} className="columns feature-item">
+                    <img className='skill' alt={tool.name} src={projectImage} />
+                    <h5>{tool.name}</h5>
+                    <p>{tool.description}</p>
+                 </div>
+        })
     }
 
     return (
@@ -52,6 +60,25 @@ const Resume = ({ data }) => {
 
 
 
+      
+
+      {/* tech */}
+      <div className="row skill">
+
+         <div className="three columns header-col">
+            <h1><span>Favorite Tech</span></h1>
+         </div>
+
+         <div>
+           <div className="nine columns main-col">
+             <p className="lead center">{tools}</p>
+            </div>
+			  </div>
+      </div>
+
+      <div style={{padding: '0px 23%', textAlign: 'center'}}><hr /></div>
+
+      {/* skill */}
       <div className="row skill">
 
          <div className="three columns header-col">
@@ -60,15 +87,14 @@ const Resume = ({ data }) => {
 
          <div className="nine columns main-col">
 
-            <p>{skillmessage}
-            </p>
+            <p>{skillmessage}</p>
 
-				<div className="bars">
-				   <ul className="skills">
-					  {skills}
-					</ul>
-				</div>
-			</div>
+          <div className="bars">
+            <ul className="skills">
+              {skills}
+            </ul>
+          </div>
+        </div>
       </div>
    </section>
     );

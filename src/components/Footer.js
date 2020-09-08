@@ -24,7 +24,7 @@ const Footer = ({ data }) => {
             </ul>
 
             <ul>
-              <li>Modified with love by the Md Arif Hossain ♥️</li>
+              <li>Modified with love by the Md Arif Hossain <span role="img" aria-label="loveIcon">♥️</span> </li>
             </ul>
 
             <ul className="copyright">

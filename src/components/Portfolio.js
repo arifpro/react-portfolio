@@ -8,7 +8,7 @@ const Portfolio = ({ data }) => {
         return <div key={projects.title} className="columns portfolio-item">
            <div className="item-wrap">
             <a href={projects.url} title={projects.title}>
-               <img alt={projects.title} src={projectImage}  style={{ height: '150px'}}/>
+               <img alt={projects.title} src={projectImage}  style={{ width: '250px', height: '150px'}}/>
                <div className="overlay">
                   <div className="portfolio-item-meta">
                  <h5>{projects.title}</h5>
@@ -38,7 +38,6 @@ const Portfolio = ({ data }) => {
       </div>
    </section>
     );
-  }
 }
 
 export default Portfolio;

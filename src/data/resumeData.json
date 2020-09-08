@@ -154,6 +154,44 @@
         "image": "PandaCommerce.png",
         "url": "https://arifpro.github.io/panda-commerce"
       }
+    ],
+    "blogs": [
+      {
+        "title": "React Router",
+        "category": "Getting Started with React Router. All you needs to know about this.",
+        "image": "https://proarif.com/blogs/reactRouter.png",
+        "url": "https://medium.com/@proarif/getting-started-with-react-router-fbf10e402c26"
+      },
+      {
+        "title": "JavaScript Program",
+        "category": "Some new topics for beginner level JavaScript programmer.",
+        "image": "https://proarif.com/blogs/beginnerJS.png",
+        "url": "https://medium.com/swlh/some-new-topics-for-beginner-level-javascript-programmer-52077e024dc3"
+      },
+      {
+        "title": "JavaScript DOM",
+        "category": "JavaScript DOM related topic and coding style.",
+        "image": "https://proarif.com/blogs/javascriptDom.png",
+        "url": "https://medium.com/swlh/javascript-dom-related-topic-and-coding-style-45ff28115380"
+      },
+      {
+        "title": "OOP",
+        "category": "OOP concept in JavaScript.",
+        "image": "https://proarif.com/blogs/oopJS.png",
+        "url": "https://medium.com/swlh/oop-concept-in-javascript-119f03b0a134"
+      },
+      {
+        "title": "Data Structure",
+        "category": "Data Structure in Javascript.",
+        "image": "https://proarif.com/blogs/dataStructureJS.png",
+        "url": "https://medium.com/@proarif/data-structure-in-javascript-edf280821fdc"
+      },
+      {
+        "title": "Algorithm",
+        "category": "JavaScript Algorithm.",
+        "image": "https://proarif.com/blogs/Algorithms.png",
+        "url": "https://medium.com/@proarif/javascript-algorithm-18833a2037e7"
+      }
     ]
   },
   "testimonials": {
